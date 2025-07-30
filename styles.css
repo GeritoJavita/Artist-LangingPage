@@ -1,0 +1,66 @@
+body {
+    font-family: 'Urbanist', sans-serif;
+    scroll-behavior: smooth;
+    background-color: #fff;
+    color: #111;
+  }
+  
+  .navbar {
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+  }
+  
+  .nav-link {
+    color: #fff !important;
+    margin-left: 1rem;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #f4b400 !important;
+  }
+  
+  .hero {
+    height: 100vh;
+    background-color: #000;
+    padding-top: 100px;
+    text-align: center;
+  }
+  
+  .hero-img {
+    max-width: 90%;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255,255,255,0.2);
+  }
+  
+  /* Galería */
+  .gallery-img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.4s ease;
+  }
+  
+  .gallery-img:hover {
+    transform: scale(1.03);
+  }
+  
+  /* Fade-in animation */
+  .animate-fade {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.6s ease;
+  }
+  
+  .animate-fade.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  footer {
+    background-color: #111;
+    color: #fff;
+  }
+  
