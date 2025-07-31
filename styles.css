@@ -330,55 +330,76 @@ body {
 }
 
 /* Responsive */
-@media (max-width: 400px) {
-  .hero h1 {
-    font-size: 2.5rem;
-  }
-  
-  .hero p {
-    font-size: 1.1rem;
-  }
-}
-
-@media (max-width: 400px) {
-  .navbar {
-    background-color: rgba(0, 0, 0, 0.95);
-  }
-  
+@media (max-width: 380px) {
+  /* HERO */
   .hero {
     height: auto;
     padding: 100px 20px;
+    background-position: center top;
   }
-  
-  .hero h1 {
-    font-size: 2rem;
-  }
-  
-  .section-title {
-    font-size: 1.5rem;
-  }
-}
 
-@media (max-width: 400px) {
   .hero h1 {
     font-size: 1.8rem;
+    line-height: 1.2;
   }
-  
+
+  .hero p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  /* BOTONES */
   .btn {
-    padding: 0.5rem 1.5rem;
+    padding: 0.5rem 1.2rem;
     font-size: 0.9rem;
   }
-  
+
+  /* NAVBAR */
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.95);
+    padding: 0.5rem;
+  }
+
+  .nav-link {
+    margin-left: 0;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+
+  /* TITULOS */
+  .section-title {
+    font-size: 1.4rem;
+  }
+
+  /* FORMULARIO */
+  .contact-form {
+    padding: 1.5rem;
+  }
+  #contacto .section-title {
+    text-align: center !important;
+  }
+}
+  /* FOOTER */
   .footer {
     text-align: center;
+    padding: 2rem 1rem;
   }
-  
+
   .footer h5::after {
     left: 50%;
     transform: translateX(-50%);
   }
-  
+
   .social-icons {
     justify-content: center;
+    margin-top: 1rem;
   }
-}
+
+  /* GALERÍA Y PROYECTOS */
+  .gallery-img,
+  .project-card {
+    height: auto;
+  }
+
