@@ -205,9 +205,6 @@ body {
   transition: all 0.3s ease;
 }
 
-.project-images img:hover {
-  transform: scale(1.1);
-}
 
 /* Formulario de contacto mejorado */
 .contact-form {
