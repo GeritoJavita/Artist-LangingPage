@@ -1,4 +1,4 @@
-
+/*Pagina dinamica, con scroll suave */
 const faders = document.querySelectorAll('.animate-fade');
 
 const appearOnScroll = new IntersectionObserver((entries, observer) => {
